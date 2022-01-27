@@ -218,7 +218,37 @@ img{
 }
 
 
+/* footer */
 
+.fill-body{
+    fill: white;
+}
+
+.footer{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+    padding-top: 0 !important;
+    position: relative !important;
+    display: block;
+    overflow: hidden;
+    color: white;
+}
+
+
+.btn-white {
+    background: #fff;}
+
+.body-fill{
+    fill: white;
+}
+.rotate-180 {
+    -webkit-transform: rotate(
+180deg
+) !important;
+    transform: rotate(
+180deg
+) !important;
+}
 
 
 
