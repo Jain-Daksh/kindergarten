@@ -129,3 +129,18 @@ fill: #0cbc87 !important;
 }
 
 
+/* care */
+.care-image{
+    padding-right: 1.6rem !important;
+    padding-left: 1.6rem !important;
+}
+
+.text-care h5{margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Heebo", sans-serif;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #24292d;
+    font-size: 1.3125rem;
+
+}
