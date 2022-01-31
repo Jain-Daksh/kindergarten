@@ -211,6 +211,7 @@ fill: #0cbc87 !important;
     width: min-content;
     margin: 2.7%;
     text-align: center;
+    
 }
 .courses-1{
     width: 15.0rem;
@@ -222,6 +223,9 @@ fill: #0cbc87 !important;
     margin-top: 1rem;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
+}
+.h-100px {
+    height: min-content !important;
 }
 .imagess{
     max-width: 100%;
@@ -332,7 +336,7 @@ fill: #0cbc87 !important;
     }
 }
 
-@media screen and (min-device-width: 769px) and (max-device-width: 1023px){
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px){
     .move-image{
         width:220.53px !important;
         height: 194.63px !important;
@@ -344,5 +348,15 @@ fill: #0cbc87 !important;
     .move-1{ 
         position: relative;
         bottom: 0%;
+    }
+    .background-courses{
+        margin-left: auto;
+        margin-right: auto;
+    }
+} 
+@media screen and (min-device-width: 1024px)  {
+    .background-courses{
+        margin-left: auto;
+        margin-right: auto;
     }
 }
